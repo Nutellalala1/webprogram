@@ -1,0 +1,124 @@
+/* styles.css - External CSS for Petrol Calculator */
+
+/* Base styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+    position: relative;
+}
+
+/* Author credit styling */
+.author-credit {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 14px;
+}
+
+/* Main container styling */
+.calculator-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Input field styling */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+/* Input focus state styling */
+input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+/* Button styling */
+button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 14px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-bottom: 20px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #1a2533;
+    transform: translateY(-2px);
+}
+
+/* Button active state */
+button:active {
+    transform: translateY(0);
+}
+
+/* Result section styling */
+.result-section {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+/* Result heading */
+h2 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+    font-size: 18px;
+}
+
+/* Total cost display styling */
+#total-cost {
+    font-size: 24px;
+    font-weight: bold;
+    color: #27ae60;
+    margin: 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}

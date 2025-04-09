@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Two Column Page</title>
+	<style>
+		/* Add CSS styles to create a two-column layout */
+		body {
+			font-family: Arial, sans-serif;
+		}
+		.container {
+			width: 80%;
+			margin: 40px auto;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		.column {
+			width: 45%;
+			padding: 20px;
+			background-color: #f0f0f0;
+			border: 1px solid #ddd;
+			margin: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		.column h2 {
+			margin-top: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="column">
+			<h2>Column 1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+		</div>
+		<div class="column">
+			<h2>Column 2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+		</div>
+	</div>
+</body>
+</html>
